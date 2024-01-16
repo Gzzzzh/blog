@@ -11,11 +11,10 @@ cd .vitepress/dist  #进到dist目录
  
 git init  #执行这些git命令
 git add -A
-git branch -M main
-git remote add origin https://github.com/Gzzzzh/blog.git
+git branch -M pages
+git remote add origin https://gitee.com/Gzzzh/blog.git
 git commit -m 'deploy'
- 
-git push -u https://github.com/Gzzzzh/blog.git origin main #提交到这个分支
+git push -f origin pages #提交到这个分支
  
 cd -
  

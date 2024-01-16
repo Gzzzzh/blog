@@ -6,13 +6,13 @@ hero:
   name: "Gzzzh blogs"
   text: "Gzzzh的前端学习"
   tagline: My great project tagline
+  image:
+    src: https://admin-pre.vr720.xin/docs/bg.png
+    alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 'Hello World'
+      link: '/example/index'
 
 features:
   - title: Feature A

@@ -8,18 +8,37 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'example', link: '/example/index' },
+      {
+        text: 'more',
+        collapsed: true,
+        items: [
+          {
+            text: 'Hello World',
+            link: '/example/index.md'
+          },
+        ]
+      }
     ],
 
     sidebar: [
       {
         text: 'Hello World',
         link: '/example/index.md'
+      },
+      {
+        text: 'JavaScript',
+        collapsed: true,
+        items: [
+          {
+            text: '如何让setTimeout准时执行',
+            link: '/JavaScript/setTimeout/如何让setTimeout准时执行'
+          }
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://gitee.com/Gzzzh/blog' }
     ]
   }
 })

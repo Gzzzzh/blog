@@ -2,7 +2,7 @@
 <the-example />  
 <br />
 
-<text class="red">在md文件中使用了vue组件和sass</text>
+<text class="color">在md文件中使用了vue组件和sass</text>
 
 <br />
 
@@ -13,7 +13,7 @@ import TheExample from './components/TheExample.vue'
 </script>
 
 <style>
-.red {
-  color: red
+.color {
+  color: #42b883;
 }
 </style>
