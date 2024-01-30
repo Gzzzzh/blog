@@ -12,6 +12,10 @@ export const sidebar = [
         link: '/JavaScript/curry/函数柯里化'
       },
       {
+        text: '实现一个符合a+规范的promise',
+        link: '/JavaScript/promise/实现一个符合a+规范的promise'
+      },
+      {
         text: '如何让setTimeout准时执行',
         link: '/JavaScript/setTimeout/如何让setTimeout准时执行'
       },
