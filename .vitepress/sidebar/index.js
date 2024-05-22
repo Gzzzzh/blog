@@ -23,6 +23,36 @@ export const sidebar = [
         text: 'promise并发控制',
         link: '/JavaScript/promisePool/promise并发控制'
       },
+      {
+        text: '大文件上传',
+        link: '/JavaScript/bigFileUpload/大文件上传'
+      },
+      {
+        text: '无感刷新token',
+        link: '/JavaScript/refreshToken/无感刷新token'
+      },
+    ]
+  },
+  {
+    text: '手写题',
+    collapsed: true,
+    items: [
+      {
+        text: '菜单数组转树',
+        link: '/practice/menuArrayToTree/菜单数组转树'
+      },
+      {
+        text: '大屏自适应scale方案',
+        link: '/practice/dataScreenScale/大屏自适应scale方案'
+      },
+      {
+        text: '实现一个bind',
+        link: '/practice/bind/实现一个bind'
+      },
+      {
+        text: '实现一个拖拽的hook',
+        link: '/practice/dragHook/实现一个拖拽的hook'
+      },
     ]
   }
 ]

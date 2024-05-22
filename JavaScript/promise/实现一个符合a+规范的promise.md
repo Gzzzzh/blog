@@ -216,3 +216,42 @@ new Promise((resolve, reject) => {
   return x;
 }).then((val2) => console.log(`promise2 value=${JSON.stringify(val2)}`) );   //promise2 value={"then":{}}
 ```
+
+
+
+## 实现Promise.all
+```js
+  Promise.all = function (promises) {
+    return new MyPromise((resolve, reject) => {
+      let count = 0;
+      let result = [];
+      for (let i = 0; i < promises.length; i++) {
+        promises[i].then((res) => {
+          count++;
+          result[i] = res;
+          if (count === promises.length) {
+            resolve(result);
+          }
+        }, (err) => {
+          reject(err);  
+          }
+          })
+      }
+    })
+  }
+```
+
+
+
+## 实现Promise.race
+```js
+  Promise.race = function (promises) {
+    return new MyPromise((resolve, reject) => {
+      for (let i = 0; i < promises.length; i++) {
+        promises[i].then((res) => {
+          resolve(res);
+        })
+      }
+    })
+  }
+```
