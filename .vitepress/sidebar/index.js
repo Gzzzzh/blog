@@ -31,6 +31,10 @@ export const sidebar = [
         text: '无感刷新token',
         link: '/JavaScript/refreshToken/无感刷新token'
       },
+      {
+        text: 'async和promise的执行顺序',
+        link: '/JavaScript/async2promise/async和promise的执行顺序'
+      },
     ]
   },
   {
