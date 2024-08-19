@@ -7,7 +7,7 @@ hero:
   text: "Gzzzh的前端学习"
   tagline: My great project tagline
   image:
-    src: https://admin-pre.vr720.xin/docs/bg.png
+    src: https://i0.hdslb.com/bfs/new_dyn/a2e09b10db0a08d1979e9b4c99cb55bb1955897084.png@720w_406h_1e_1c.avif
     alt: VitePress
   actions:
     - theme: brand

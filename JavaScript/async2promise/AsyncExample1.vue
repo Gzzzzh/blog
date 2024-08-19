@@ -11,7 +11,7 @@ function handleClick() {
   }
 
   async function start() {
-    const data = await foo();
+    const data = await foo(); // 返回了promise,因此等待两个微任务
     result.push(`foo end ${data}`)
     console.log("foo end", data);
   }
@@ -22,11 +22,11 @@ function handleClick() {
     result.push('start')
     resolve("start");
   })
-    .then(() => {
+    .then(() => { // 这是等待的第一个微任务
       result.push(1)
       console.log(1);
     })
-    .then(() => {
+    .then(() => { // 等待的第二个微任务
       result.push(2)
       console.log(2);
     })

@@ -58,5 +58,19 @@ export const sidebar = [
         link: '/practice/dragHook/实现一个拖拽的hook'
       },
     ]
+  },
+  {
+    text: 'sdk专题',
+    collapsed: true,
+    items: [
+      {
+        text: '简单封装一个sdk',
+        link: '/sdk/sleep/简单封装一个sdk'
+      },
+      {
+        text: 'zhiwu-sdk的实现流程',
+        link: '/sdk/zhiwuSdk/zhiwu-sdk的实现流程'
+      },
+    ]
   }
 ]
