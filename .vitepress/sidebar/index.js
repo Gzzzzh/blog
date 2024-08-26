@@ -60,16 +60,24 @@ export const sidebar = [
     ]
   },
   {
-    text: 'sdk专题',
+    text: '项目相关',
     collapsed: true,
     items: [
       {
         text: '简单封装一个sdk',
-        link: '/sdk/sleep/简单封装一个sdk'
+        link: '/project/sleep/简单封装一个sdk'
       },
       {
         text: 'zhiwu-sdk的实现流程',
-        link: '/sdk/zhiwuSdk/zhiwu-sdk的实现流程'
+        link: '/project/zhiwuSdk/zhiwu-sdk的实现流程'
+      },
+      {
+        text: 'uniApp中微信小程序异步分包插件',
+        link: '/project/componentHolderPlugin/uniApp中微信小程序异步分包插件'
+      },
+      {
+        text: '客户描摹自定义配置表单',
+        link: '/project/formDepict/客户描摹自定义配置表单'
       },
     ]
   }
