@@ -72,7 +72,15 @@ export const sidebar = [
         link: '/project/zhiwuSdk/zhiwu-sdk的实现流程'
       },
       {
-        text: 'uniApp中微信小程序异步分包插件',
+        text: '后台-封装sw-filter和hook钩子',
+        link: '/project/adminFilterTableHook/封装sw-filter和hook钩子'
+      },
+      {
+        text: '后台-管理后台打包编译优化',
+        link: '/project/adminPackage/管理后台打包编译优化'
+      },
+      {
+        text: '小程序-uniApp中微信小程序异步分包插件',
         link: '/project/componentHolderPlugin/uniApp中微信小程序异步分包插件'
       },
       {
