@@ -81,7 +81,11 @@ export const sidebar = [
       },
       {
         text: '小程序-uniApp中微信小程序异步分包插件',
-        link: '/project/componentHolderPlugin/uniApp中微信小程序异步分包插件'
+        link: '/project/miniComponentHolderPlugin/uniApp中微信小程序异步分包插件'
+      },
+      {
+        text: '小程序-自动打包上传和选择分包编译脚本',
+        link: '/project/miniNodeScript/自动打包上传和选择分包编译脚本'
       },
       {
         text: '客户描摹自定义配置表单',
