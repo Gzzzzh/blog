@@ -80,12 +80,20 @@ export const sidebar = [
         link: '/project/adminPackage/管理后台打包编译优化'
       },
       {
+        text: '后台-菜单路由角色组织架构权限模块',
+        link: '/project/adminAuth/菜单路由角色组织架构权限模块'
+      },
+      {
         text: '小程序-uniApp中微信小程序异步分包插件',
         link: '/project/miniComponentHolderPlugin/uniApp中微信小程序异步分包插件'
       },
       {
         text: '小程序-自动打包上传和选择分包编译脚本',
         link: '/project/miniNodeScript/自动打包上传和选择分包编译脚本'
+      },
+      {
+        text: '组件库-form表单校验',
+        link: '/project/uiForm/组件库-form表单校验'
       },
       {
         text: '客户描摹自定义配置表单',
