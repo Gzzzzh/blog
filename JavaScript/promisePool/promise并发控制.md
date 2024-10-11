@@ -116,3 +116,35 @@ class PromisePoolDynamic {
     }
   }
 ```
+
+写法2
+```js
+class TaskScheduler {
+  promise = Promise.resolve()
+  constructor (max) {
+    this.max = max
+    this.runningCounts = 0
+    this.queue = []
+  }
+
+  run () {
+    if (this.runningCounts >= this.max || this.queue.length === 0) return
+    const task = this.queue.shift()
+    this.runningCounts++
+    task().finally(() => {
+      this.runningCounts--
+      this.run()
+    })
+  }
+
+  addTask (task) {
+    return new Promise(...args => {
+      // this.queue.push(() => task().then(...args))
+      // 假如task不是promise,而是不同函数,需要先包装成promise
+      this.queue.push(() => promise.then(task).then(...args))
+      this.run()
+    })
+  }
+}
+
+```
