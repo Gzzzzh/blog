@@ -84,6 +84,10 @@ export const sidebar = [
         link: '/project/adminAuth/菜单路由角色组织架构权限模块'
       },
       {
+        text: '小程序-项目详情优化过程',
+        link: '/project/miniDetail/小程序项目详情优化过程'
+      },
+      {
         text: '小程序-uniApp中微信小程序异步分包插件',
         link: '/project/miniComponentHolderPlugin/uniApp中微信小程序异步分包插件'
       },
@@ -92,8 +96,8 @@ export const sidebar = [
         link: '/project/miniNodeScript/自动打包上传和选择分包编译脚本'
       },
       {
-        text: '组件库-form表单校验',
-        link: '/project/uiForm/组件库-form表单校验'
+        text: '组件库中表单校验处理',
+        link: '/project/uiForm/uview中表单校验处理'
       },
       {
         text: '客户描摹自定义配置表单',
