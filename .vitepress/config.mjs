@@ -3,7 +3,7 @@ import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/blog/',
   title: "Gzzzh blogs",
   description: "Gzzzh的前端学习",
   markdown: {
