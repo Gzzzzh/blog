@@ -57,6 +57,10 @@ export const sidebar = [
         text: '实现一个拖拽的hook',
         link: '/practice/dragHook/实现一个拖拽的hook'
       },
+      {
+        text: 'react18的两种动态弹窗',
+        link: '/practice/reactDialog/react18的两种动态弹窗'
+      },
     ]
   },
   {
