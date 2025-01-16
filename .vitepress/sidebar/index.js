@@ -35,6 +35,10 @@ export const sidebar = [
         text: 'async和promise的执行顺序',
         link: '/JavaScript/async2promise/async和promise的执行顺序'
       },
+      {
+        text: '浏览器事件循环和渲染',
+        link: '/JavaScript/eventLoop/事件循环eventloop'
+      },
     ]
   },
   {
